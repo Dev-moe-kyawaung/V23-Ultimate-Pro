@@ -1,0 +1,106 @@
+# 👑 V23 ULTIMATE PRO MAX - Robots.txt
+# https://dev-moe-kyawaung.github.io/robots.txt
+
+User-agent: *
+Allow: /
+Disallow: /private/
+Disallow: /admin/
+Disallow: /api/
+Disallow: /*.json$
+Disallow: /test/
+Disallow: /dev/
+
+Sitemap: https://dev-moe-kyawaung.github.io/sitemap.xml
+Sitemap: https://dev-moe-kyawaung.github.io/sitemap-google.xml
+Sitemap: https://dev-moe-kyawaung.github.io/sitemap-microsoft.xml
+Sitemap: https://dev-moe-kyawaung.github.io/sitemap-cloudflare.xml
+
+Crawl-delay: 10
+
+# Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 5
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Googlebot-Mobile
+Allow: /
+
+User-agent: Googlebot-Video
+Allow: /
+
+# Bing / Microsoft
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 5
+
+User-agent: MSNBot
+Allow: /
+
+User-agent: msnbot
+Allow: /
+Crawl-delay: 5
+
+# Yahoo
+User-agent: Slurp
+Allow: /
+Crawl-delay: 10
+
+# DuckDuckGo
+User-agent: DuckDuckBot
+Allow: /
+
+# Yandex
+User-agent: YandexBot
+Allow: /
+Crawl-delay: 10
+
+# Baidu
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 10
+
+# Social Media
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: TelegramBot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+User-agent: Discordbot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+# Cloudflare
+User-agent: Cloudflare-AMP
+Allow: /
+
+# Block Bad Bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+# Generated: 2026-01-15
+# Contact: moekyawaung@programmer.net
+# Version: 23.0.0
